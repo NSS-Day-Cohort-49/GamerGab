@@ -20,7 +20,7 @@ const data = {
       {
           id: 1,
           date_created: "2020-04-20",
-          author: 2,
+          authorId: 2,
           headline: "Top 10 2-player Games to Play in Quarantine",
           body: "Non voluptas delectus earum voluptatem tempore culpa suscipit. Numquam nesciunt sint nemo velit sint tenetur voluptatem ipsum. Eligendi repellendus non exercitationem error unde incidunt corrupti et.",
           categoryId: 2
