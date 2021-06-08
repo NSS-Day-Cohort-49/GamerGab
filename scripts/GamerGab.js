@@ -1,4 +1,5 @@
 import { Authors } from "./Authors.js"
+import { Articles } from "./Articles.js"
 
 export const GamerGab = () => {
   return `
@@ -8,7 +9,7 @@ export const GamerGab = () => {
       </article>
       <article class="articles column">
         <h2>Articles</h2>
-        <p>Hello, Articles</p>
+        ${Articles()}
       </article>
       <article class="categories column">
         <h2>Categories</h2>
