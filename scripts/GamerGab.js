@@ -1,5 +1,6 @@
 import { Authors } from "./Authors.js"
 import { Articles } from "./Articles.js"
+import { Categories } from "./Categories.js"
 
 export const GamerGab = () => {
   return `
@@ -13,7 +14,8 @@ export const GamerGab = () => {
       </article>
       <article class="categories column">
         <h2>Categories</h2>
-        <p>Hello, Categories</p>
+        ${Categories()}
+
       </article>
   `
 }
